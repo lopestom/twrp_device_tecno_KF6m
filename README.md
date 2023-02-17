@@ -1,0 +1,1 @@
+# twrp_device_tecno_KF6m
