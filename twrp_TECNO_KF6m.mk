@@ -29,7 +29,7 @@ $(call inherit-product, device/tecno/TECNO_KF6m/device.mk)
 
 # Inherit some common recovery stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
-$(call inherit-product, build/target/product/embedded.mk)
+#$(call inherit-product, build/target/product/embedded.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := TECNO_KF6m
