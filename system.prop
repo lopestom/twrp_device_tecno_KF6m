@@ -1,0 +1,45 @@
+# from device
+ro.sf.lcd_density=320
+init.userspace_reboot.is_supported=true
+ro.hardware.egl=meow
+ro.boot.hardware=mt6762
+ro.hardware=mt6762
+ro.vendor.mediatek.platform=MT6765
+ro.vendor.mtk_config_max_dram_size=0x80000000
+ro.vendor.mtk_f2fs_enable=1
+ro.vendor.mtk_emmc_support=1
+# TEE - gatekeeper - keymaster
+ro.vendor.mtk_microtrust_tee_support=1
+ro.hardware.kmsetkey=beanpod
+ro.hardware.gatekeeper=beanpod
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.vendor.trans_pay_tee=1
+ro.hardware.paytrigger=beanpod
+ro.boot.avb_version=1.1
+ro.boot.vbmeta.avb_version=1.1
+#
+ro.crypto.allow_encrypt_override=true
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+#
+Build.BRAND=MTK
+ro.vendor.mediatek.version.release=alps-mp-r0.mp1-V8.24.1_reallytek.r0mp1.k61v1.64.bsp_P138
+# tran properties
+ro.vendor.tran.version.release=KF6m-H6218B-RGo-RU-220717V226
+# end build properties
+#
+#others functions
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.treble.enabled=true
+sys.usb.controller=musb-hdrc
+sys.usb.ffs.aio_compat=true
+fbe.metadata.wrappedkey=true
+vendor.gatekeeper.disable_spu=true

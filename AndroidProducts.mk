@@ -1,0 +1,4 @@
+PRODUCT_MAKEFILES := \
+     $(LOCAL_DIR)/twrp_TECNO_KF6m.mk
+
+COMMON_LUNCH_CHOICES := twrp_TECNO_KF6m-eng
